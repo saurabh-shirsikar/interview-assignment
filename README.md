@@ -23,9 +23,6 @@ This repository contains solutions to a technical interview assignment covering 
 ### e) Rectangle Intersection
 - Axis-aligned bounding box overlap check
 
-### f) Round Robin Scheduler
-- CPU scheduling simulation using queues
-
 ## 💻 How to Run
 
 - Compile C++ files using:
