@@ -1,41 +1,39 @@
-# interview-assignment
-Technical interview assessment with algorithm and OpenGL solutions in C++
 # 🧠 Software Engineering Interview Assignment
 
 This repository contains solutions to a technical interview assignment covering data structures, algorithms, computer graphics, and systems-level thinking. Each problem is solved in C++ and explained thoroughly.
 
----
-
 ## 📌 Problem List
 
 ### a) String Compression & Decompression
-- Implemented basic run-length encoding
-- Added second-level optimization
-- Built decompression logic to reverse output
+- Basic run-length encoding
+- Optimized compression by removing redundant "1"
+- Decompression to restore the original
 
 ### b) 3D Solar System (OpenGL)
-- Simulated Sun, Earth, Moon using hierarchical modeling
-- Implemented camera, lighting, and transformation
+- Hierarchical modeling of Sun, Earth, and Moon
+- OpenGL transformations and lighting
 
 ### c) Rainwater Trapping
-- Discrete version using elevation array
-- Analog version using mathematical function sampling
+- Discrete: array-based implementation
+- Analog: function-based terrain sampling
 
 ### d) Fast Inverse Square Root
-- Recreated the classic Quake III algorithm
-- Explained bit-level logic and Newton-Raphson step
+- Quake III inspired bit manipulation + Newton's method
 
 ### e) Rectangle Intersection
-- Axis-aligned bounding box (AABB) overlap check
+- Axis-aligned bounding box overlap check
 
-### f) OS Round Robin Scheduler
-- Simulated CPU process scheduling using queues
-
----
+### f) Round Robin Scheduler
+- CPU scheduling simulation using queues
 
 ## 💻 How to Run
 
-- All programs are written in **C++**
-- For OpenGL example (Part b), make sure to install:
-  - `GL`, `GLU`, and `glut` (e.g., `freeglut` for Linux/Windows)
-- Compile with g++:
+- Compile C++ files using:
+  g++ filename.cpp -o program
+  ./program
+
+- OpenGL file (b_) requires GLUT installed.
+
+## 🧑‍💻 Author Declaration
+
+I declare that I have completed this work independently and not in collaboration with others.
